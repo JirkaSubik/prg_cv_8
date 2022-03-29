@@ -1,6 +1,6 @@
 
 def is_whole_number(number):
-    if number % 1 == 0:
+    if number % 1 == 0 and number > 0:
         return True
 
     return False
