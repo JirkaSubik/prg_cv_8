@@ -17,3 +17,9 @@ def is_even_number(number):
 
 even_number = is_even_number(whole_number)
 print(even_number)
+
+my_numbers = [1,2,3,4,5]
+def is_natural_number():
+    for number in my_numbers:
+        print(is_natural_number(number))
+
